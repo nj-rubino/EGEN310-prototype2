@@ -62,7 +62,7 @@ public class MainWindow {
 	 */
 	protected void createContents() {
 		shlPrototypeControllerApp = new Shell();
-		shlPrototypeControllerApp.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_DARK_SHADOW));
+		shlPrototypeControllerApp.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_BORDER));
 		shlPrototypeControllerApp.setSize(1280, 720);
 		shlPrototypeControllerApp.setText("Cat's Conundrum Prototype 2 App");
 
